@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="14dp"
+        android:text="Search"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-5dp"
+        android:ems="10"
+        android:hint="Search or Enter url"
+        android:inputType="textMultiLine"
+        android:text="Search or Enter url" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="170dp"
+        android:text="Face Book"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:background="?attr/colorAccent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Youtube"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Instragram"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-7dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="share Chart"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="137dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Yahoo"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Google"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
